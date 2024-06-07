@@ -128,7 +128,7 @@ const Todomain = () => {
 
     // Send the updated task to the server
     const fetchUrl =
-      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1975.mockapi.io/api/vi/users/" + userID;
     fetch(fetchUrl, {
       method: "PUT",
       headers: {
@@ -152,7 +152,7 @@ const Todomain = () => {
     setTasks(updatedTasks);
 
     const fetchUrl =
-      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1975.mockapi.io/api/vi/users/" + userID;
     fetch(fetchUrl, {
       method: "PUT",
       headers: {
@@ -174,7 +174,7 @@ const Todomain = () => {
     setTasks([]);
 
     const fetchUrl =
-      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1975.mockapi.io/api/vi/users/" + userID;
     fetch(fetchUrl, {
       method: "PUT",
       headers: {
