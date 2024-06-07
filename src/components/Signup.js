@@ -11,7 +11,7 @@ const FormRegistration = () => {
   const navigate = useNavigate();
 
   function apiNewUser() {
-    const url = "https://6662cf3862966e20ef0a1976.mockapi.io/api/vi/users";
+    const url = "https://6662cf3862966e20ef0a1975.mockapi.io/api/vi/users";
 
     fetch(url, {
       method: "POST",
