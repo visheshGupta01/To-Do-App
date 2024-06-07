@@ -74,7 +74,7 @@ const Todomain = () => {
   // Function on adding tasks
   const addTask = () => {
     const fetchUrl =
-      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1975.mockapi.io/api/vi/users/" + userID;
 
       // Fetching previous tasks
     fetch(fetchUrl, {
