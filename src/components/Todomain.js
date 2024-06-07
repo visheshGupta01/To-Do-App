@@ -26,7 +26,7 @@ const Todomain = () => {
 
         //Fetching user-id from api
         const url = new URL(
-          "https://665acd09003609eda45eda6a.mockapi.io/users"
+          "https://6662cf3862966e20ef0a1976.mockapi.io/users"
         );
         url.searchParams.append("emailID", user.email);
         fetch(url, {
@@ -74,7 +74,7 @@ const Todomain = () => {
   // Function on adding tasks
   const addTask = () => {
     const fetchUrl =
-      "https://665acd09003609eda45eda6a.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
 
       // Fetching previous tasks
     fetch(fetchUrl, {
@@ -128,7 +128,7 @@ const Todomain = () => {
 
     // Send the updated task to the server
     const fetchUrl =
-      "https://665acd09003609eda45eda6a.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
     fetch(fetchUrl, {
       method: "PUT",
       headers: {
@@ -152,7 +152,7 @@ const Todomain = () => {
     setTasks(updatedTasks);
 
     const fetchUrl =
-      "https://665acd09003609eda45eda6a.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
     fetch(fetchUrl, {
       method: "PUT",
       headers: {
@@ -174,7 +174,7 @@ const Todomain = () => {
     setTasks([]);
 
     const fetchUrl =
-      "https://665acd09003609eda45eda6a.mockapi.io/users/" + userID;
+      "https://6662cf3862966e20ef0a1976.mockapi.io/users/" + userID;
     fetch(fetchUrl, {
       method: "PUT",
       headers: {
